@@ -10,4 +10,4 @@ eureka:
     lease-renewal-interval-in-seconds: 35 #интервал эхо запроса, который клиент отправляет на сервер
 
 tmpVar: 100
-tmpStr: GitHub
+tmpStr: GitHub-test
