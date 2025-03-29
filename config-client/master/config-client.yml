@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-client
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true
+    lease-renewal-interval-in-seconds: 35 #интервал эхо запроса, который клиент отправляет на сервер
+
+tmpVar: 999
+str: GitHub - master
